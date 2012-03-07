@@ -1,13 +1,24 @@
 module ApplicationHelper
+<<<<<<< HEAD
+
     #Return a title on a per-page basis
     def title
         base_title = "ROR Tutorial"
+=======
+    def title
+        base_title = "ROR tutorial"
+>>>>>>> filling-in-layout
         if @title.nil?
             base_title
         else
             "#{base_title} | #{@title}"
-            #   base_title + " | " + @title
+<<<<<<< HEAD
+#base_title + " | " + @title
         end
+        
+=======
+        end
+>>>>>>> filling-in-layout
     end
 end
 
